@@ -1,0 +1,88 @@
+[debug] [2019-07-24T00:30:13.882Z] ----------------------------------------------------------------------
+[debug] [2019-07-24T00:30:13.890Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Olalekam\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve --only functions,hosting
+[debug] [2019-07-24T00:30:13.891Z] CLI Version:   6.4.0
+[debug] [2019-07-24T00:30:13.891Z] Platform:      win32
+[debug] [2019-07-24T00:30:13.891Z] Node Version:  v8.9.3
+[debug] [2019-07-24T00:30:13.893Z] Time:          Tue Jul 23 2019 17:30:13 GMT-0700 (Pacific Daylight Time)
+[debug] [2019-07-24T00:30:13.893Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-07-24T00:30:13.954Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-07-24T00:30:13.956Z] > authorizing via signed-in user
+[debug] [2019-07-24T00:30:13.957Z] [iam] checking project dr-viken for permissions ["firebase.projects.get"]
+[debug] [2019-07-24T00:30:13.961Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-07-24T00:30:13.962Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-07-24T00:30:14.246Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-24T00:30:15.652Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/dr-viken:testIamPermissions  
+
+[debug] [2019-07-24T00:30:16.161Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-24T00:30:16.164Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/dr-viken  
+ 
+[debug] [2019-07-24T00:30:16.722Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Olalekam\Documents\Website Creation\Dr. K\Doc2'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-07-24T00:30:52.231Z] Fetching environment
+[debug] [2019-07-24T00:30:52.237Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1047269572367:getServerAppConfig  
+ 
+[debug] [2019-07-24T00:30:52.239Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1047269572367/clients/_:getWebAppConfig  
+ 
+[debug] [2019-07-24T00:30:52.575Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-24T00:30:52.576Z] Starting @google-cloud/functions-emulator
+[debug] [2019-07-24T00:30:52.781Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+[debug] [2019-07-24T00:31:09.237Z] Parsing function triggers
+[info] +  functions: app: http://localhost:5001/dr-viken/us-central1/app
+[info] [hosting] Rewriting / to local function app
+[info] [hosting] Rewriting /css/ajax-loader.gif to local function app
+[info] [hosting] Rewriting /css/fonts/slick.woff to local function app
+[info] [hosting] Rewriting /css/fonts/slick.ttf to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /css/ajax-loader.gif to local function app
+[info] [hosting] Rewriting /css/fonts/slick.woff to local function app
+[info] [hosting] Rewriting /css/fonts/slick.ttf to local function app
+[info] [hosting] Rewriting /contact to local function app
+[info] [hosting] Rewriting /email to local function app
+[info] [hosting] Rewriting /about to local function app
+[info] [hosting] Rewriting / to local function app
+[info] [hosting] Rewriting /css/ajax-loader.gif to local function app
+[info] [hosting] Rewriting /css/fonts/slick.woff to local function app
+[info] [hosting] Rewriting /css/fonts/slick.ttf to local function app
+[info] [hosting] Rewriting /cosmetic to local function app
+[info] [hosting] Rewriting /root-canal to local function app
+[info] [hosting] Rewriting /cosmetic to local function app
+[info] [hosting] Rewriting /dental-hygiene to local function app
+[info] [hosting] Rewriting /dental-hygiene to local function app
+[info] [hosting] Rewriting /digital-xray to local function app
+[info] [hosting] Rewriting /digital-xray to local function app
+[info] [hosting] Rewriting /educational-videos to local function app
+[info] [hosting] Rewriting /educational-videos to local function app
+[info] [hosting] Rewriting /gallery to local function app
+[info] [hosting] Rewriting /implants to local function app
+[info] [hosting] Rewriting /intraoral-cam to local function app
+[info] [hosting] Rewriting /links to local function app
+[info] [hosting] Rewriting /meet-the-dr to local function app
+[info] [hosting] Rewriting /meet-the-staff to local function app
+[info] [hosting] Rewriting /new-patient-forms to local function app
+[info] [hosting] Rewriting /new-patient-forms to local function app
+[info] [hosting] Rewriting /oral-cancer-screen to local function app
+[info] [hosting] Rewriting /oral-surgery to local function app
+[info] [hosting] Rewriting /pediatric to local function app
+[info] [hosting] Rewriting /periodontal-disease to local function app
+[info] [hosting] Rewriting /css/ajax-loader.gif to local function app
+[info] [hosting] Rewriting /post-op-instructions to local function app
+[info] [hosting] Rewriting /practice to local function app
+[info] [hosting] Rewriting /restorative to local function app
+[info] [hosting] Rewriting /practice to local function app
+[info] [hosting] Rewriting /preventive-devices to local function app
+[info] [hosting] Rewriting /q-and-a to local function app
+[info] [hosting] Rewriting /restorative to local function app
+[info] [hosting] Rewriting /css/ajax-loader.gif to local function app
+[info] [hosting] Rewriting /root-canal to local function app
+[info] [hosting] Rewriting /rotary-endo to local function app
+[info] [hosting] Rewriting /surgical-instructions to local function app
+[info] [hosting] Rewriting /surgical-instructions to local function app
+[info] [hosting] Rewriting /surgical-instructions to local function app
+[info] [hosting] Rewriting /css/ajax-loader.gif to local function app
