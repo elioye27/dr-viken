@@ -1,0 +1,73 @@
+[debug] [2019-07-24T01:49:15.259Z] ----------------------------------------------------------------------
+[debug] [2019-07-24T01:49:15.265Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Olalekam\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve --only functions,hosting
+[debug] [2019-07-24T01:49:15.266Z] CLI Version:   6.4.0
+[debug] [2019-07-24T01:49:15.266Z] Platform:      win32
+[debug] [2019-07-24T01:49:15.266Z] Node Version:  v8.9.3
+[debug] [2019-07-24T01:49:15.267Z] Time:          Tue Jul 23 2019 18:49:15 GMT-0700 (Pacific Daylight Time)
+[debug] [2019-07-24T01:49:15.267Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-07-24T01:49:15.290Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-07-24T01:49:15.291Z] > authorizing via signed-in user
+[debug] [2019-07-24T01:49:15.292Z] [iam] checking project dr-viken for permissions ["firebase.projects.get"]
+[debug] [2019-07-24T01:49:15.296Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/dr-viken:testIamPermissions  
+
+[debug] [2019-07-24T01:49:15.751Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-24T01:49:15.757Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/dr-viken  
+ 
+[debug] [2019-07-24T01:49:16.101Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Olalekam\Documents\Website Creation\Dr. K\Doc2'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-07-24T01:49:17.798Z] Fetching environment
+[debug] [2019-07-24T01:49:17.803Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1047269572367:getServerAppConfig  
+ 
+[debug] [2019-07-24T01:49:17.804Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1047269572367/clients/_:getWebAppConfig  
+ 
+[debug] [2019-07-24T01:49:18.034Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-24T01:49:18.035Z] Starting @google-cloud/functions-emulator
+[debug] [2019-07-24T01:49:18.358Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+[debug] [2019-07-24T01:49:22.150Z] Parsing function triggers
+[warn] !  functions: Failed to load functions source code. Ensure that you have the latest SDK by running npm i --save firebase-functions inside the functions directory.
+[debug] [2019-07-24T01:49:23.875Z] Error during trigger parsing:  Error occurred while parsing your function triggers.
+
+ReferenceError: router is not defined
+    at Object.<anonymous> (C:\Users\Olalekam\Documents\Website Creation\Dr. K\Doc2\functions\index.js:118:1)
+    at Module._compile (module.js:635:30)
+    at Object.Module._extensions..js (module.js:646:10)
+    at Module.load (module.js:554:32)
+    at tryModuleLoad (module.js:497:12)
+    at Function.Module._load (module.js:489:3)
+    at Module.require (module.js:579:17)
+    at require (internal/module.js:11:18)
+    at C:\Users\Olalekam\AppData\Roaming\npm\node_modules\firebase-tools\lib\triggerParser.js:15:15
+    at Object.<anonymous> (C:\Users\Olalekam\AppData\Roaming\npm\node_modules\firebase-tools\lib\triggerParser.js:53:3)
+    at Module._compile (module.js:635:30)
+    at Object.Module._extensions..js (module.js:646:10)
+    at Module.load (module.js:554:32)
+    at tryModuleLoad (module.js:497:12)
+    at Function.Module._load (module.js:489:3)
+    at Function.Module.runMain (module.js:676:10)
+[warn] !  functions: Error from emulator. Error occurred while parsing your function triggers.
+
+ReferenceError: router is not defined
+    at Object.<anonymous> (C:\Users\Olalekam\Documents\Website Creation\Dr. K\Doc2\functions\index.js:118:1)
+    at Module._compile (module.js:635:30)
+    at Object.Module._extensions..js (module.js:646:10)
+    at Module.load (module.js:554:32)
+    at tryModuleLoad (module.js:497:12)
+    at Function.Module._load (module.js:489:3)
+    at Module.require (module.js:579:17)
+    at require (internal/module.js:11:18)
+    at C:\Users\Olalekam\AppData\Roaming\npm\node_modules\firebase-tools\lib\triggerParser.js:15:15
+    at Object.<anonymous> (C:\Users\Olalekam\AppData\Roaming\npm\node_modules\firebase-tools\lib\triggerParser.js:53:3)
+    at Module._compile (module.js:635:30)
+    at Object.Module._extensions..js (module.js:646:10)
+    at Module.load (module.js:554:32)
+    at tryModuleLoad (module.js:497:12)
+    at Function.Module._load (module.js:489:3)
+    at Function.Module.runMain (module.js:676:10)
+[debug] [2019-07-24T01:49:23.880Z] 
+[info] Shutting down...

@@ -1,41 +1,72 @@
-[debug] [2019-07-24T00:30:13.882Z] ----------------------------------------------------------------------
-[debug] [2019-07-24T00:30:13.890Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Olalekam\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve --only functions,hosting
-[debug] [2019-07-24T00:30:13.891Z] CLI Version:   6.4.0
-[debug] [2019-07-24T00:30:13.891Z] Platform:      win32
-[debug] [2019-07-24T00:30:13.891Z] Node Version:  v8.9.3
-[debug] [2019-07-24T00:30:13.893Z] Time:          Tue Jul 23 2019 17:30:13 GMT-0700 (Pacific Daylight Time)
-[debug] [2019-07-24T00:30:13.893Z] ----------------------------------------------------------------------
+[debug] [2019-07-24T03:33:48.053Z] ----------------------------------------------------------------------
+[debug] [2019-07-24T03:33:48.059Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Olalekam\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve --only functions,hosting
+[debug] [2019-07-24T03:33:48.060Z] CLI Version:   6.4.0
+[debug] [2019-07-24T03:33:48.060Z] Platform:      win32
+[debug] [2019-07-24T03:33:48.060Z] Node Version:  v8.9.3
+[debug] [2019-07-24T03:33:48.061Z] Time:          Tue Jul 23 2019 20:33:48 GMT-0700 (Pacific Daylight Time)
+[debug] [2019-07-24T03:33:48.061Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2019-07-24T00:30:13.954Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2019-07-24T00:30:13.956Z] > authorizing via signed-in user
-[debug] [2019-07-24T00:30:13.957Z] [iam] checking project dr-viken for permissions ["firebase.projects.get"]
-[debug] [2019-07-24T00:30:13.961Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
-[debug] [2019-07-24T00:30:13.962Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
- <request body omitted>
-[debug] [2019-07-24T00:30:14.246Z] <<< HTTP RESPONSE 200
-[debug] [2019-07-24T00:30:15.652Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/dr-viken:testIamPermissions  
+[debug] [2019-07-24T03:33:48.085Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-07-24T03:33:48.086Z] > authorizing via signed-in user
+[debug] [2019-07-24T03:33:48.087Z] [iam] checking project dr-viken for permissions ["firebase.projects.get"]
+[debug] [2019-07-24T03:33:48.092Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/dr-viken:testIamPermissions  
 
-[debug] [2019-07-24T00:30:16.161Z] <<< HTTP RESPONSE 200
-[debug] [2019-07-24T00:30:16.164Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/dr-viken  
+[debug] [2019-07-24T03:33:48.543Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-24T03:33:48.550Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/dr-viken  
  
-[debug] [2019-07-24T00:30:16.722Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-24T03:33:48.866Z] <<< HTTP RESPONSE 200
 [info] 
 [info] === Serving from 'C:\Users\Olalekam\Documents\Website Creation\Dr. K\Doc2'...
 [info] 
 [info] i  functions: Preparing to emulate functions.
-[debug] [2019-07-24T00:30:52.231Z] Fetching environment
-[debug] [2019-07-24T00:30:52.237Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1047269572367:getServerAppConfig  
+[debug] [2019-07-24T03:33:50.816Z] Fetching environment
+[debug] [2019-07-24T03:33:50.821Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1047269572367:getServerAppConfig  
  
-[debug] [2019-07-24T00:30:52.239Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1047269572367/clients/_:getWebAppConfig  
+[debug] [2019-07-24T03:33:50.822Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1047269572367/clients/_:getWebAppConfig  
  
-[debug] [2019-07-24T00:30:52.575Z] <<< HTTP RESPONSE 200
-[debug] [2019-07-24T00:30:52.576Z] Starting @google-cloud/functions-emulator
-[debug] [2019-07-24T00:30:52.781Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-24T03:33:51.085Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-24T03:33:51.086Z] Starting @google-cloud/functions-emulator
+[debug] [2019-07-24T03:33:51.181Z] <<< HTTP RESPONSE 200
 [info] i  hosting: Serving hosting files from: public
 [info] +  hosting: Local server: http://localhost:5000
-[debug] [2019-07-24T00:31:09.237Z] Parsing function triggers
+[debug] [2019-07-24T03:33:55.290Z] Parsing function triggers
 [info] +  functions: app: http://localhost:5001/dr-viken/us-central1/app
 [info] [hosting] Rewriting / to local function app
+[info] [hosting] Rewriting /css/ajax-loader.gif to local function app
+[info] [hosting] Rewriting /css/fonts/slick.woff to local function app
+[info] [hosting] Rewriting /css/fonts/slick.ttf to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /appointment-booked to local function app
+[info] [hosting] Rewriting /css/ajax-loader.gif to local function app
+[info] [hosting] Rewriting /css/fonts/slick.woff to local function app
+[info] [hosting] Rewriting /css/fonts/slick.ttf to local function app
+[info] [hosting] Rewriting / to local function app
+[info] [hosting] Rewriting /css/ajax-loader.gif to local function app
+[info] [hosting] Rewriting /css/fonts/slick.woff to local function app
+[info] [hosting] Rewriting /css/fonts/slick.ttf to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /email to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting / to local function app
+[info] [hosting] Rewriting /css/ajax-loader.gif to local function app
+[info] [hosting] Rewriting /css/fonts/slick.woff to local function app
+[info] [hosting] Rewriting /css/fonts/slick.ttf to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /appointment-booked to local function app
+[info] [hosting] Rewriting /css/ajax-loader.gif to local function app
+[info] [hosting] Rewriting /css/fonts/slick.woff to local function app
+[info] [hosting] Rewriting /css/fonts/slick.ttf to local function app
+[info] [hosting] Rewriting / to local function app
+[info] [hosting] Rewriting /css/ajax-loader.gif to local function app
+[info] [hosting] Rewriting /css/fonts/slick.woff to local function app
+[info] [hosting] Rewriting /css/fonts/slick.ttf to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /css/ajax-loader.gif to local function app
+[info] [hosting] Rewriting /css/fonts/slick.woff to local function app
+[info] [hosting] Rewriting /css/fonts/slick.ttf to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /send to local function app
 [info] [hosting] Rewriting /css/ajax-loader.gif to local function app
 [info] [hosting] Rewriting /css/fonts/slick.woff to local function app
 [info] [hosting] Rewriting /css/fonts/slick.ttf to local function app
@@ -43,46 +74,430 @@
 [info] [hosting] Rewriting /css/ajax-loader.gif to local function app
 [info] [hosting] Rewriting /css/fonts/slick.woff to local function app
 [info] [hosting] Rewriting /css/fonts/slick.ttf to local function app
-[info] [hosting] Rewriting /contact to local function app
-[info] [hosting] Rewriting /email to local function app
-[info] [hosting] Rewriting /about to local function app
 [info] [hosting] Rewriting / to local function app
 [info] [hosting] Rewriting /css/ajax-loader.gif to local function app
 [info] [hosting] Rewriting /css/fonts/slick.woff to local function app
 [info] [hosting] Rewriting /css/fonts/slick.ttf to local function app
-[info] [hosting] Rewriting /cosmetic to local function app
-[info] [hosting] Rewriting /root-canal to local function app
-[info] [hosting] Rewriting /cosmetic to local function app
-[info] [hosting] Rewriting /dental-hygiene to local function app
-[info] [hosting] Rewriting /dental-hygiene to local function app
-[info] [hosting] Rewriting /digital-xray to local function app
-[info] [hosting] Rewriting /digital-xray to local function app
-[info] [hosting] Rewriting /educational-videos to local function app
-[info] [hosting] Rewriting /educational-videos to local function app
-[info] [hosting] Rewriting /gallery to local function app
-[info] [hosting] Rewriting /implants to local function app
-[info] [hosting] Rewriting /intraoral-cam to local function app
-[info] [hosting] Rewriting /links to local function app
-[info] [hosting] Rewriting /meet-the-dr to local function app
-[info] [hosting] Rewriting /meet-the-staff to local function app
-[info] [hosting] Rewriting /new-patient-forms to local function app
-[info] [hosting] Rewriting /new-patient-forms to local function app
-[info] [hosting] Rewriting /oral-cancer-screen to local function app
-[info] [hosting] Rewriting /oral-surgery to local function app
-[info] [hosting] Rewriting /pediatric to local function app
-[info] [hosting] Rewriting /periodontal-disease to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /email to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /email to local function app
 [info] [hosting] Rewriting /css/ajax-loader.gif to local function app
-[info] [hosting] Rewriting /post-op-instructions to local function app
-[info] [hosting] Rewriting /practice to local function app
-[info] [hosting] Rewriting /restorative to local function app
-[info] [hosting] Rewriting /practice to local function app
-[info] [hosting] Rewriting /preventive-devices to local function app
-[info] [hosting] Rewriting /q-and-a to local function app
-[info] [hosting] Rewriting /restorative to local function app
+[info] [hosting] Rewriting /css/fonts/slick.woff to local function app
+[info] [hosting] Rewriting /css/fonts/slick.ttf to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting / to local function app
 [info] [hosting] Rewriting /css/ajax-loader.gif to local function app
-[info] [hosting] Rewriting /root-canal to local function app
-[info] [hosting] Rewriting /rotary-endo to local function app
-[info] [hosting] Rewriting /surgical-instructions to local function app
-[info] [hosting] Rewriting /surgical-instructions to local function app
-[info] [hosting] Rewriting /surgical-instructions to local function app
+[info] [hosting] Rewriting /css/fonts/slick.woff to local function app
+[info] [hosting] Rewriting /css/fonts/slick.ttf to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting / to local function app
+[info] [hosting] Rewriting / to local function app
 [info] [hosting] Rewriting /css/ajax-loader.gif to local function app
+[info] [hosting] Rewriting /css/fonts/slick.woff to local function app
+[info] [hosting] Rewriting /css/fonts/slick.ttf to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /css/ajax-loader.gif to local function app
+[info] [hosting] Rewriting /css/fonts/slick.woff to local function app
+[info] [hosting] Rewriting /css/fonts/slick.ttf to local function app
+[info] [hosting] Rewriting / to local function app
+[info] [hosting] Rewriting /css/ajax-loader.gif to local function app
+[info] [hosting] Rewriting /css/fonts/slick.woff to local function app
+[info] [hosting] Rewriting /css/fonts/slick.ttf to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /appointment-booked to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /css/ajax-loader.gif to local function app
+[info] [hosting] Rewriting /css/fonts/slick.woff to local function app
+[info] [hosting] Rewriting /css/fonts/slick.ttf to local function app
+[info] [hosting] Rewriting / to local function app
+[info] [hosting] Rewriting /css/ajax-loader.gif to local function app
+[info] [hosting] Rewriting /css/fonts/slick.woff to local function app
+[info] [hosting] Rewriting /css/fonts/slick.ttf to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] Shutting down...
+[debug] [2019-07-24T04:24:15.813Z] ----------------------------------------------------------------------
+[debug] [2019-07-24T04:24:15.819Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Olalekam\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve --only functions,hosting
+[debug] [2019-07-24T04:24:15.819Z] CLI Version:   6.4.0
+[debug] [2019-07-24T04:24:15.820Z] Platform:      win32
+[debug] [2019-07-24T04:24:15.820Z] Node Version:  v8.9.3
+[debug] [2019-07-24T04:24:15.821Z] Time:          Tue Jul 23 2019 21:24:15 GMT-0700 (Pacific Daylight Time)
+[debug] [2019-07-24T04:24:15.821Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-07-24T04:24:15.845Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-07-24T04:24:15.846Z] > authorizing via signed-in user
+[debug] [2019-07-24T04:24:15.846Z] [iam] checking project dr-viken for permissions ["firebase.projects.get"]
+[debug] [2019-07-24T04:24:15.851Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-07-24T04:24:15.851Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-07-24T04:24:18.138Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-24T04:24:18.176Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/dr-viken:testIamPermissions  
+
+[debug] [2019-07-24T04:24:18.556Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-24T04:24:18.561Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/dr-viken  
+ 
+[debug] [2019-07-24T04:24:18.880Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Olalekam\Documents\Website Creation\Dr. K\Doc2'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-07-24T04:24:20.872Z] Fetching environment
+[debug] [2019-07-24T04:24:20.879Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1047269572367:getServerAppConfig  
+ 
+[debug] [2019-07-24T04:24:20.880Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1047269572367/clients/_:getWebAppConfig  
+ 
+[debug] [2019-07-24T04:24:21.241Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-24T04:24:21.242Z] Starting @google-cloud/functions-emulator
+[debug] [2019-07-24T04:24:21.362Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+[info] [hosting] Rewriting /css/fonts/slick.woff to local function app
+[info] [hosting] Rewriting /css/ajax-loader.gif to local function app
+[info] [hosting] Rewriting /css/fonts/slick.ttf to local function app
+[debug] [2019-07-24T04:24:27.596Z] Parsing function triggers
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] +  functions: app: http://localhost:5001/dr-viken/us-central1/app
+[info] [hosting] Rewriting / to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /appointment-booked to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting / to local function app
+[info] [hosting] Rewriting /css/ajax-loader.gif to local function app
+[info] [hosting] Rewriting /css/fonts/slick.woff to local function app
+[info] [hosting] Rewriting /css/fonts/slick.ttf to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] Shutting down...
+[debug] [2019-07-24T04:33:26.592Z] ----------------------------------------------------------------------
+[debug] [2019-07-24T04:33:26.598Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Olalekam\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve --only functions,hosting
+[debug] [2019-07-24T04:33:26.599Z] CLI Version:   6.4.0
+[debug] [2019-07-24T04:33:26.599Z] Platform:      win32
+[debug] [2019-07-24T04:33:26.599Z] Node Version:  v8.9.3
+[debug] [2019-07-24T04:33:26.600Z] Time:          Tue Jul 23 2019 21:33:26 GMT-0700 (Pacific Daylight Time)
+[debug] [2019-07-24T04:33:26.600Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-07-24T04:33:26.626Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-07-24T04:33:26.627Z] > authorizing via signed-in user
+[debug] [2019-07-24T04:33:26.627Z] [iam] checking project dr-viken for permissions ["firebase.projects.get"]
+[debug] [2019-07-24T04:33:26.633Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/dr-viken:testIamPermissions  
+
+[debug] [2019-07-24T04:33:27.116Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-24T04:33:27.121Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/dr-viken  
+ 
+[debug] [2019-07-24T04:33:27.428Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Olalekam\Documents\Website Creation\Dr. K\Doc2'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-07-24T04:33:29.069Z] Fetching environment
+[debug] [2019-07-24T04:33:29.075Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1047269572367:getServerAppConfig  
+ 
+[debug] [2019-07-24T04:33:29.076Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1047269572367/clients/_:getWebAppConfig  
+ 
+[debug] [2019-07-24T04:33:29.327Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-24T04:33:29.329Z] Starting @google-cloud/functions-emulator
+[debug] [2019-07-24T04:33:29.422Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+[debug] [2019-07-24T04:33:33.418Z] Parsing function triggers
+[info] +  functions: app: http://localhost:5001/dr-viken/us-central1/app
+[info] [hosting] Rewriting / to local function app
+[info] [hosting] Rewriting /css/ajax-loader.gif to local function app
+[info] [hosting] Rewriting /css/fonts/slick.woff to local function app
+[info] [hosting] Rewriting /css/fonts/slick.ttf to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /appointment-booked to local function app
+[info] [hosting] Rewriting /appointment-booked to local function app
+[info] [hosting] Rewriting /appointment-booked to local function app
+[info] [hosting] Rewriting / to local function app
+[info] [hosting] Rewriting /css/ajax-loader.gif to local function app
+[info] [hosting] Rewriting /css/fonts/slick.woff to local function app
+[info] [hosting] Rewriting /css/fonts/slick.ttf to local function app
+[info] [hosting] Rewriting / to local function app
+[info] [hosting] Rewriting / to local function app
+[info] [hosting] Rewriting /css/ajax-loader.gif to local function app
+[info] [hosting] Rewriting /css/fonts/slick.woff to local function app
+[info] [hosting] Rewriting /css/fonts/slick.ttf to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting / to local function app
+[info] [hosting] Rewriting /css/fonts/slick.woff to local function app
+[info] [hosting] Rewriting /css/ajax-loader.gif to local function app
+[info] [hosting] Rewriting /css/fonts/slick.ttf to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /css/ajax-loader.gif to local function app
+[info] [hosting] Rewriting /css/fonts/slick.woff to local function app
+[info] [hosting] Rewriting /css/ajax-loader.gif to local function app
+[info] [hosting] Rewriting /css/fonts/slick.woff to local function app
+[info] [hosting] Rewriting /css/fonts/slick.ttf to local function app
+[info] [hosting] Rewriting / to local function app
+[info] [hosting] Rewriting /css/ajax-loader.gif to local function app
+[info] [hosting] Rewriting /css/fonts/slick.woff to local function app
+[info] [hosting] Rewriting /css/fonts/slick.ttf to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] Shutting down...
+[debug] [2019-07-24T04:43:00.467Z] ----------------------------------------------------------------------
+[debug] [2019-07-24T04:43:00.474Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Olalekam\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve --only functions,hosting
+[debug] [2019-07-24T04:43:00.474Z] CLI Version:   6.4.0
+[debug] [2019-07-24T04:43:00.474Z] Platform:      win32
+[debug] [2019-07-24T04:43:00.475Z] Node Version:  v8.9.3
+[debug] [2019-07-24T04:43:00.476Z] Time:          Tue Jul 23 2019 21:43:00 GMT-0700 (Pacific Daylight Time)
+[debug] [2019-07-24T04:43:00.476Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-07-24T04:43:00.498Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-07-24T04:43:00.499Z] > authorizing via signed-in user
+[debug] [2019-07-24T04:43:00.499Z] [iam] checking project dr-viken for permissions ["firebase.projects.get"]
+[debug] [2019-07-24T04:43:00.504Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/dr-viken:testIamPermissions  
+
+[debug] [2019-07-24T04:43:00.980Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-24T04:43:00.984Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/dr-viken  
+ 
+[debug] [2019-07-24T04:43:01.300Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Olalekam\Documents\Website Creation\Dr. K\Doc2'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-07-24T04:43:02.942Z] Fetching environment
+[debug] [2019-07-24T04:43:02.948Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1047269572367:getServerAppConfig  
+ 
+[debug] [2019-07-24T04:43:02.949Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1047269572367/clients/_:getWebAppConfig  
+ 
+[debug] [2019-07-24T04:43:03.267Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-24T04:43:03.268Z] Starting @google-cloud/functions-emulator
+[debug] [2019-07-24T04:43:03.312Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+[debug] [2019-07-24T04:43:07.354Z] Parsing function triggers
+[info] +  functions: app: http://localhost:5001/dr-viken/us-central1/app
+[info] [hosting] Rewriting /css/ajax-loader.gif to local function app
+[info] [hosting] Rewriting /css/fonts/slick.woff to local function app
+[info] [hosting] Rewriting /css/fonts/slick.ttf to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] Shutting down...
+[debug] [2019-07-24T04:45:30.166Z] ----------------------------------------------------------------------
+[debug] [2019-07-24T04:45:30.175Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Olalekam\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve --only functions,hosting
+[debug] [2019-07-24T04:45:30.176Z] CLI Version:   6.4.0
+[debug] [2019-07-24T04:45:30.176Z] Platform:      win32
+[debug] [2019-07-24T04:45:30.176Z] Node Version:  v8.9.3
+[debug] [2019-07-24T04:45:30.177Z] Time:          Tue Jul 23 2019 21:45:30 GMT-0700 (Pacific Daylight Time)
+[debug] [2019-07-24T04:45:30.178Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-07-24T04:45:30.212Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-07-24T04:45:30.213Z] > authorizing via signed-in user
+[debug] [2019-07-24T04:45:30.213Z] [iam] checking project dr-viken for permissions ["firebase.projects.get"]
+[debug] [2019-07-24T04:45:30.219Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/dr-viken:testIamPermissions  
+
+[debug] [2019-07-24T04:45:30.686Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-24T04:45:30.690Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/dr-viken  
+ 
+[debug] [2019-07-24T04:45:31.009Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Olalekam\Documents\Website Creation\Dr. K\Doc2'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-07-24T04:45:32.702Z] Fetching environment
+[debug] [2019-07-24T04:45:32.707Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1047269572367:getServerAppConfig  
+ 
+[debug] [2019-07-24T04:45:32.709Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1047269572367/clients/_:getWebAppConfig  
+ 
+[debug] [2019-07-24T04:45:32.995Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-24T04:45:32.996Z] Starting @google-cloud/functions-emulator
+[debug] [2019-07-24T04:45:33.048Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+[info] [hosting] Rewriting / to local function app
+[debug] [2019-07-24T04:45:37.080Z] Parsing function triggers
+[info] [hosting] Rewriting / to local function app
+[info] +  functions: app: http://localhost:5001/dr-viken/us-central1/app
+[info] [hosting] Rewriting / to local function app
+[info] [hosting] Rewriting /css/ajax-loader.gif to local function app
+[info] [hosting] Rewriting /css/fonts/slick.woff to local function app
+[info] [hosting] Rewriting /css/fonts/slick.ttf to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] Shutting down...
+[debug] [2019-07-24T04:48:53.437Z] ----------------------------------------------------------------------
+[debug] [2019-07-24T04:48:53.443Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Olalekam\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve --only functions,hosting
+[debug] [2019-07-24T04:48:53.444Z] CLI Version:   6.4.0
+[debug] [2019-07-24T04:48:53.444Z] Platform:      win32
+[debug] [2019-07-24T04:48:53.444Z] Node Version:  v8.9.3
+[debug] [2019-07-24T04:48:53.445Z] Time:          Tue Jul 23 2019 21:48:53 GMT-0700 (Pacific Daylight Time)
+[debug] [2019-07-24T04:48:53.446Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-07-24T04:48:53.470Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-07-24T04:48:53.472Z] > authorizing via signed-in user
+[debug] [2019-07-24T04:48:53.472Z] [iam] checking project dr-viken for permissions ["firebase.projects.get"]
+[debug] [2019-07-24T04:48:53.477Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/dr-viken:testIamPermissions  
+
+[debug] [2019-07-24T04:48:53.934Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-24T04:48:53.941Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/dr-viken  
+ 
+[debug] [2019-07-24T04:48:54.275Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Olalekam\Documents\Website Creation\Dr. K\Doc2'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-07-24T04:48:55.931Z] Fetching environment
+[debug] [2019-07-24T04:48:55.936Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1047269572367:getServerAppConfig  
+ 
+[debug] [2019-07-24T04:48:55.937Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1047269572367/clients/_:getWebAppConfig  
+ 
+[debug] [2019-07-24T04:48:56.197Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-24T04:48:56.198Z] Starting @google-cloud/functions-emulator
+[debug] [2019-07-24T04:48:56.249Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+[debug] [2019-07-24T04:49:00.254Z] Parsing function triggers
+[info] +  functions: app: http://localhost:5001/dr-viken/us-central1/app
+[info] [hosting] Rewriting /css/ajax-loader.gif to local function app
+[info] [hosting] Rewriting /css/fonts/slick.woff to local function app
+[info] [hosting] Rewriting /css/fonts/slick.ttf to local function app
+[info] [hosting] Rewriting / to local function app
+[info] [hosting] Rewriting /css/ajax-loader.gif to local function app
+[info] [hosting] Rewriting /css/fonts/slick.woff to local function app
+[info] [hosting] Rewriting /css/fonts/slick.ttf to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting /sent to local function app
+[info] [hosting] Rewriting /sent to local function app
+[info] [hosting] Rewriting /connect%20with%20us to local function app
+[info] [hosting] Rewriting /connect-with-us to local function app
+[info] [hosting] Rewriting / to local function app
+[info] [hosting] Rewriting /css/ajax-loader.gif to local function app
+[info] [hosting] Rewriting /css/fonts/slick.woff to local function app
+[info] [hosting] Rewriting /css/fonts/slick.ttf to local function app
+[info] [hosting] Rewriting / to local function app
+[info] [hosting] Rewriting /css/ajax-loader.gif to local function app
+[info] [hosting] Rewriting /css/fonts/slick.woff to local function app
+[info] [hosting] Rewriting /css/fonts/slick.ttf to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting / to local function app
+[info] [hosting] Rewriting /css/ajax-loader.gif to local function app
+[info] [hosting] Rewriting /css/fonts/slick.woff to local function app
+[info] [hosting] Rewriting /css/fonts/slick.ttf to local function app
+[info] [hosting] Rewriting / to local function app
+[info] [hosting] Rewriting /css/ajax-loader.gif to local function app
+[info] [hosting] Rewriting /css/fonts/slick.woff to local function app
+[info] [hosting] Rewriting /css/fonts/slick.ttf to local function app
+[info] [hosting] Rewriting /send to local function app
+[info] [hosting] Rewriting / to local function app
+[info] [hosting] Rewriting / to local function app
+[info] Shutting down...
+[debug] [2019-07-24T05:14:18.276Z] ----------------------------------------------------------------------
+[debug] [2019-07-24T05:14:18.282Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Olalekam\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve --only functions,hosting
+[debug] [2019-07-24T05:14:18.282Z] CLI Version:   6.4.0
+[debug] [2019-07-24T05:14:18.283Z] Platform:      win32
+[debug] [2019-07-24T05:14:18.283Z] Node Version:  v8.9.3
+[debug] [2019-07-24T05:14:18.284Z] Time:          Tue Jul 23 2019 22:14:18 GMT-0700 (Pacific Daylight Time)
+[debug] [2019-07-24T05:14:18.284Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-07-24T05:14:18.307Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-07-24T05:14:18.309Z] > authorizing via signed-in user
+[debug] [2019-07-24T05:14:18.309Z] [iam] checking project dr-viken for permissions ["firebase.projects.get"]
+[debug] [2019-07-24T05:14:18.313Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-07-24T05:14:18.314Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-07-24T05:14:18.635Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-24T05:14:18.645Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/dr-viken:testIamPermissions  
+
+[debug] [2019-07-24T05:14:19.025Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-24T05:14:19.028Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/dr-viken  
+ 
+[debug] [2019-07-24T05:14:19.351Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Olalekam\Documents\Website Creation\Dr. K\Doc2'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-07-24T05:14:21.077Z] Fetching environment
+[debug] [2019-07-24T05:14:21.083Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1047269572367:getServerAppConfig  
+ 
+[debug] [2019-07-24T05:14:21.084Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1047269572367/clients/_:getWebAppConfig  
+ 
+[debug] [2019-07-24T05:14:21.380Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-24T05:14:21.381Z] Starting @google-cloud/functions-emulator
+[debug] [2019-07-24T05:14:21.526Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+[info] [hosting] Rewriting / to local function app
+[debug] [2019-07-24T05:14:26.147Z] Parsing function triggers
+[warn] !  functions: Failed to load functions source code. Ensure that you have the latest SDK by running npm i --save firebase-functions inside the functions directory.
+[debug] [2019-07-24T05:14:26.763Z] Error during trigger parsing:  Error occurred while parsing your function triggers.
+
+C:\Users\Olalekam\Documents\Website Creation\Dr. K\Doc2\functions\index.js:271
+});
+  ^
+
+SyntaxError: Unexpected end of input
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:599:28)
+    at Object.Module._extensions..js (module.js:646:10)
+    at Module.load (module.js:554:32)
+    at tryModuleLoad (module.js:497:12)
+    at Function.Module._load (module.js:489:3)
+    at Module.require (module.js:579:17)
+    at require (internal/module.js:11:18)
+    at C:\Users\Olalekam\AppData\Roaming\npm\node_modules\firebase-tools\lib\triggerParser.js:15:15
+[warn] !  functions: Error from emulator. Error occurred while parsing your function triggers.
+
+C:\Users\Olalekam\Documents\Website Creation\Dr. K\Doc2\functions\index.js:271
+});
+  ^
+
+SyntaxError: Unexpected end of input
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:599:28)
+    at Object.Module._extensions..js (module.js:646:10)
+    at Module.load (module.js:554:32)
+    at tryModuleLoad (module.js:497:12)
+    at Function.Module._load (module.js:489:3)
+    at Module.require (module.js:579:17)
+    at require (internal/module.js:11:18)
+    at C:\Users\Olalekam\AppData\Roaming\npm\node_modules\firebase-tools\lib\triggerParser.js:15:15
+[debug] [2019-07-24T05:14:26.767Z] 
+[info] Shutting down...
